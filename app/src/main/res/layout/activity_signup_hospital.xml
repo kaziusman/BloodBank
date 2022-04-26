@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:layout_height="match_parent">
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#B71C1C"
+                android:layout_margin="10dp"
+                android:text="SignUp As Hospital">
+            </TextView>
+
+
+
+
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/hos_s_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="8dp"
+
+                android:textColorHint="#B3AFAF" />
+
+            <View
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B3AFAF" />
+
+
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/hos_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="8dp"
+
+                android:textColorHint="#B3AFAF" />
+
+            <View
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B3AFAF" />
+
+
+
+
+
+            <EditText
+                android:id="@+id/hos_institution_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_label_outline_24dp"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Institute Name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="8dp"
+
+                android:textColorHint="#B3AFAF"
+
+                />
+
+            <View
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B3AFAF" />
+
+
+
+
+
+
+
+            <EditText
+                android:id="@+id/hos_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#B3AFAF"
+
+                />
+            <View
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B3AFAF" />
+
+
+            <EditText
+                android:id="@+id/hos_city"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_location_city_24dp"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="City"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#B3AFAF"
+
+                />
+
+            <View
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B3AFAF" />
+
+
+            <EditText
+                android:id="@+id/hos_contactNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_phone_contact"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Contact No."
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#B3AFAF"
+
+                />
+            <View
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B3AFAF" />
+
+
+
+
+
+            <Button
+                app:backgroundTint="@null"
+                android:id="@+id/btn_hos_signup"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_background"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="Register"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

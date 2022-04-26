@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+
+        android:layout_margin="20dp"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#F3F2F2"
+            android:layout_margin="10dp"
+            android:text="Blood Requests">
+        </TextView>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <ImageView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_blood"
+                android:layout_gravity="center"></ImageView>
+            <Spinner
+
+                android:id="@+id/blood_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:entries="@array/bloodgroup"
+
+                android:scrollbarStyle="insideInset"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="#FFFFFF"
+
+                />
+        </LinearLayout>
+        <View
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#B3AFAF" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <ImageView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_location_city_24dp"
+                android:layout_gravity="center"></ImageView>
+            <Spinner
+
+                android:id="@+id/city_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:scrollbarStyle="insideInset"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="#FFFFFF"
+
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#B3AFAF" />
+        <Button
+            android:id="@+id/find_request"
+            android:layout_marginTop="10dp"
+            app:backgroundTint="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find"
+            android:background="@drawable/find_bg"
+            android:layout_gravity="right"></Button>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Blood Request"
+            android:textColor="#918888"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+
+
+            android:id="@+id/lv_blood_requests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+</LinearLayout>
