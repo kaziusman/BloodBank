@@ -60,6 +60,9 @@ public class BloodRequests extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        Dashboard.key="false";
+
+
         find=view.findViewById(R.id.find_request);
         item_recyclerView = view.findViewById(R.id.lv_blood_requests);
         blood=view.findViewById(R.id.blood_request);

@@ -17,6 +17,7 @@
     <style name="Theme.BloodBank.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+
     </style>
 
     <style name="Theme.BloodBank.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

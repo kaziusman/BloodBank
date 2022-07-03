@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,6 +22,7 @@ import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.common.Priority;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONObjectRequestListener;
+import com.example.bloodbank.AddBlood;
 import com.example.bloodbank.Api;
 import com.example.bloodbank.BloodRequests;
 import com.example.bloodbank.Dashboard;
@@ -33,10 +35,11 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class HomeFragment extends Fragment {
-    CardView donor,seeker;
+    CardView donor,seeker,addblood;
     TextView tv_noti;
     ImageView noti;
-
+    LinearLayout blood_add_view;
+    public static String key;
 
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,11 +58,32 @@ public class HomeFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        Dashboard.key="true";
     donor=view.findViewById(R.id.donor);
         seeker=view.findViewById(R.id.seeker);
         noti=view.findViewById(R.id.notification);
         tv_noti=view.findViewById(R.id.tv_noti);
+        addblood=view.findViewById(R.id.addblood);
+        blood_add_view=view.findViewById(R.id.add_view);
+        if(Dashboard.loginas.equals("user")) {
+            blood_add_view.setVisibility(View.INVISIBLE);
+        }
+
+
+
         checknotification();
+        addblood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fm = getFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+                AddBlood findBlood = new AddBlood();
+                ft.replace(R.id.nav_host_fragment_content_dashboard,findBlood );
+                ft.addToBackStack(null);
+                ft.commit();
+            }
+        });
+
         seeker.setOnClickListener(new View.OnClickListener() {
                                       @Override
                                       public void onClick(View v) {
@@ -68,6 +92,9 @@ public class HomeFragment extends Fragment {
                                           FindBlood findBlood = new FindBlood();
                                           ft.replace(R.id.nav_host_fragment_content_dashboard,findBlood );
                                           ft.addToBackStack(null);
+                                          key="seeker";
+
+
                                           ft.commit();
                                       }
                                   }
@@ -80,6 +107,7 @@ public class HomeFragment extends Fragment {
                                           BloodRequests findBlood = new BloodRequests();
                                           ft.replace(R.id.nav_host_fragment_content_dashboard,findBlood );
                                           ft.addToBackStack(null);
+                                          key="donor";
                                           ft.commit();
                                       }
                                   }
@@ -92,6 +120,7 @@ public class HomeFragment extends Fragment {
                 Requests_to_user findBlood = new Requests_to_user();
                 ft.replace(R.id.nav_host_fragment_content_dashboard,findBlood );
                 ft.addToBackStack(null);
+                key="noti";
                 ft.commit();
             }
         });

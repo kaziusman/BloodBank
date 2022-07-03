@@ -45,6 +45,7 @@ public class RequestBlood extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+
         req_blood=view.findViewById(R.id.req_blood_btn);
         blood=view.findViewById(R.id.req_blood_spinner);
         name=view.findViewById(R.id.req_Name);

@@ -26,26 +26,37 @@
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/drawable/ic_phone_contact.xml" value="0.2703125" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/drawable/post_req_bg.xml" value="0.2703125" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/drawable/topview.xml" value="0.2703125" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/aboutus_fragment.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/activity_dashboard.xml" value="0.20878623188405798" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/activity_login.xml" value="0.176" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/activity_signup.xml" value="0.176" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/activity_signup_hospital.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/activity_signup_user.xml" value="0.264" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/addblood_fragment.xml" value="0.18659420289855072" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/app_bar_dashboard.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/content_dashboard.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/findblood_fragment.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/fragment_blood_requests.xml" value="0.2346014492753623" />
-        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/fragment_home.xml" value="0.536" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/fragment_gallery.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/fragment_home.xml" value="0.136" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/fragment_request_to_user.xml" value="0.22509057971014493" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/fragment_slideshow.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/hosp_item_model.xml" value="0.264" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/hospitalbloodfragment.xml" value="0.1693840579710145" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/item_model.xml" value="0.536" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/item_model_availableblood.xml" value="0.2346014492753623" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/item_model_requeststouser.xml" value="0.264" />
-        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/nav_header_dashboard.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/nav_header_dashboard.xml" value="0.4" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/profile_fragment.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/profile_hosp_fragment.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/profile_user_fragment.xml" value="0.18704710144927536" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/requestblood_fragment.xml" value="0.264" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/text_input.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/layout/user_bloodfragment.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/menu/activity_main_drawer.xml" value="0.4" />
         <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/menu/dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Kazi/AndroidStudioProjects/BloodBank/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.146875" />
       </map>
     </option>
   </component>

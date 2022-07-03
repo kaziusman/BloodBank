@@ -34,7 +34,7 @@ public class Requests_to_user extends Fragment {
     List<String> item_name = new ArrayList<String>();
     List<String> item_city = new ArrayList<String>();
     List<String> item_contact = new ArrayList<String>();
-    List<String> item_gender = new ArrayList<String>();
+    List<String> item_requested_to = new ArrayList<String>();
     List<String> item_age = new ArrayList<String>();
     List<String> item_reason = new ArrayList<String>();
     List<String> spinnercity = new ArrayList<String>();
@@ -83,6 +83,7 @@ public class Requests_to_user extends Fragment {
             itemModel.setReason(item_reason.get(i));
             itemModel.setContact(item_contact.get(i));
             itemModel.setCity(item_city.get(i));
+            itemModel.setRequestdto(item_requested_to.get(i));
             //add in array list
             itemarrayList.add(itemModel);
         }
@@ -115,7 +116,7 @@ public class Requests_to_user extends Fragment {
                                     item_id.add(response.getJSONArray("allrequests").getJSONObject(i).getString("id"));
                                     item_city.add(response.getJSONArray("allrequests").getJSONObject(i).getString("city"));
                                     item_reason.add(response.getJSONArray("allrequests").getJSONObject(i).getString("reason"));
-
+                                    item_requested_to.add(response.getJSONArray("allrequests").getJSONObject(i).getString("requestby"));
                                 }
 
 
@@ -124,7 +125,7 @@ public class Requests_to_user extends Fragment {
                             showlist();
                             item_blood.clear();
                             item_name.clear();
-
+                            item_requested_to.clear();
                             item_contact.clear();
                             item_id.clear();
                             item_city.clear();

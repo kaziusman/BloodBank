@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.bloodbank.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:name="com.example.bloodbank.ui.gallery.ProfileUserFragment"
+        android:label="Profile"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.bloodbank.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:name="com.example.bloodbank.ui.slideshow.AboutUs"
+        android:label="About Us"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
