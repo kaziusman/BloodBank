@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:text="About Us">
+    </TextView>
+    <TextView
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:text="The Blood Bucket is going to be live  with a vision to provide safe blood, meeting international standards to all segments of the society without any discrimination. The Blood Bucket is aimed to mobilize the nation towards 100% voluntary blood donations.
+In a span of just a few years, the Blood Center will not only been able to support Hospital all around the country.
+VOLUNTARY BLOOD DONATION DRIVE
+You can become someone’s lifeline – conduct Blood Drive at your organization, school or community. Donations can also be made through Blood Bucket. It is just a little effort to save someone's life because every life matters
+
+Call us now at"  ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
